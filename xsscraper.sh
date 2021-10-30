@@ -23,6 +23,3 @@ ACTION=$(sort -u | kxss | awk '{print $2}' | dalfox pipe --custom-payload xss-pa
 while read FILE2;do
     grep -viE $FILE2 $1-filtered.txt;
     done < filter-2.txt | $ACTION
-    
-    
-   
