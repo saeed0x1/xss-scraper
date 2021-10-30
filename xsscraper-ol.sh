@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# This is an one liner for the XSS scraper script
 # Run this script after getting all urls from waybackarchive
 # Also install all required tools, waybackurls, kxss, dalfox
 
